@@ -1,0 +1,16 @@
+h1{
+  text-align: center;
+  text-decoration: line-through;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 10px;
+  text-shadow: 2px 2px #FF0000;
+  font-size: 4em;
+}
+
+body{
+  background-color: #a3a3c2;
+}
+.jumbotron{
+  border-width: 3px;
+}

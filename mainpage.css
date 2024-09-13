@@ -1,0 +1,36 @@
+h1{
+  font-style: italic;
+  font-size: 4em;
+  text-align: center;
+  text-shadow: 2px 2px #FF0000;
+}
+body{
+  background-color: #a3a3c2;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
+  padding-top: 2em;
+}
+.card:hover{
+  transform: translateY(-5px);
+}
+.category{
+  margin: 70px 0px;
+}
+.col-4{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-gap: 1em;
+  padding-top: 2em;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+.col-4 img{
+  max-width: 800px;
+  max-height: 500px;
+  margin-right: 70px;
+  margin-left: 70px;
+  padding-top: 0px;
+
+}
